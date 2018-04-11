@@ -1,0 +1,23 @@
+{
+    "name": "max/algorithm",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "weiwenhao",
+            "email": "1101140857@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Algorithm\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "Algorithm\\test\\": "test/"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    }
+}
