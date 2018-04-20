@@ -67,7 +67,8 @@ class Dijkstra
     private function findMinVertex()
     {
         $temp = array_diff_key($this->distance, array_flip($this->found));
-        return array_keys($temp, min($temp))[0];
+        asort($temp);
+        return key($temp);
     }
 
 
